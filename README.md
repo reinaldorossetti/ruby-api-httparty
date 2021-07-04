@@ -54,6 +54,11 @@ Comando para rodar os testes da feature de usuários:
 bundle exec rspec spec/tests/register_user.rb
 ```
 
+Videos do nosso projeto:
+https://www.loom.com/share/0124b9b21086495f84c560a25a83debd
+https://www.loom.com/share/dcba13d058b74fd5926f42201b26016d
+
+
 Para conhecer a API pública de estudos **ServeRest** que utilizei para os testes [clique aqui](https://serverest.dev/).
 
 Para criar o json schema copie o body da requisição para dentro da tools de jsonschema [clique aqui](https://www.jsonschema.net/home)
