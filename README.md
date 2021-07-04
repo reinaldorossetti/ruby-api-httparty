@@ -8,20 +8,20 @@ Foi criado esse projeto com intuito de mostrar o ServeRest (https://serverest.de
 
 ### Para subir o servido localmente com NPM
 
-Execute o seguinte comando no terminal:
+Execute o seguinte comando no terminal:  
 
 ```sh
 npx serverest@latest
 ```
 
-Caminho do arquivo de configuração do servidor no projeto:
-ruby-api-httparty / spec / support / data / homolog.yml
+Caminho do arquivo de configuração do servidor no projeto:  
+ruby-api-httparty / spec / support / data / homolog.yml  
 ```
 url_padrao: 'http://localhost:3000'
 ```
-* Se precisar mudar a porta do servidor mudar também nesse arquivo.
+* Se precisar mudar a porta do servidor mudar também nesse arquivo.  
 
-Utilizamos as seguintes bibliotecas:
+Utilizamos as seguintes bibliotecas:  
 ```
 gem 'rspec'
 gem 'faker', '~> 2.18.0'
@@ -30,9 +30,9 @@ gem 'pact', '~> 1.57'
 gem 'json-schema', '~> 2.8.1'
 ```
 
-- Como é um projeto de testes somente fiz os testes da feature de usuários, mas ideia é utilizar todos os verbos *GET, POST, PUT* e *DELETE*.
+- Como é um projeto de testes somente fiz os testes da feature de usuários, mas ideia é utilizar todos os verbos *GET, POST, PUT* e *DELETE*.  
 
-Foi utilizado, o faker para gerar dados do usuário, json-schema para validação do contrato, json para ler os dados em json e ostruct para transformar para objetos.
+Foi utilizado, o faker para gerar dados do usuário, json-schema para validação do contrato, json para ler os dados em json e ostruct para transformar para objetos.  
 ```
 require 'faker'
 require "json-schema"
