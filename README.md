@@ -36,4 +36,4 @@ bundle exec rspec spec/tests/register_user.rb
 
 Para conhecer a API pública de estudos **ServeRest** que utilizei para os testes [clique aqui](https://serverest.dev/).
 
-Para criar o json schema copie o body para dentro da tools de jsonschema [clique aqui](https://www.jsonschema.net/home)
+Para criar o json schema copie o body da requisição para dentro da tools de jsonschema [clique aqui](https://www.jsonschema.net/home)
