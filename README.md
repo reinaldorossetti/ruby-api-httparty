@@ -1,4 +1,4 @@
-Foi criado esse projeto com intuito de mostrar o ServeRest, que permite o estudo de:
+Foi criado esse projeto com intuito de mostrar o ServeRest(https://serverest.dev/), que permite o estudo de:
 
 - Verbos *GET, POST, PUT* e *DELETE* com persistência de dados
 - Autenticação no header
