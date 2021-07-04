@@ -13,20 +13,8 @@ end
 
 module User
 
-  @name_value = Faker::Name.name
-  @email_value = Faker::Internet.email
-  @password_value = Faker::Internet.password
-
-  def self.name_value
-    @password_value
-  end
-
-  def self.email_value
-    @email_value
-  end
-
-  def self.password
-    @password_value
-  end
+  define_method(:full_name) { Faker::Name.name }
+  define_method(:email) { Faker::Internet.email }
+  define_method(:password) { Faker::Internet.password }
 
 end
