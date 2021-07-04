@@ -14,6 +14,10 @@ Execute o seguinte comando no terminal:
 npx serverest@latest
 ```
 
+Para baixar o projeto:
+```sh
+git clone https://github.com/reinaldorossetti/ruby-api-httparty.git
+```
 Caminho do arquivo de configuração do servidor no projeto:  
 ruby-api-httparty / spec / support / data / homolog.yml  
 ```
