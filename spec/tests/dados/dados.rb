@@ -8,5 +8,10 @@ module User
     { "nome": full_name, "email": email, "password": password, "administrador": "true" }.to_json
   end
 
+  def self.user_body_email
+    { "nome": full_name, "email": "rei@gmail.com", "password": password, "administrador": "true" }.to_json
+  end
+
+
 end
 

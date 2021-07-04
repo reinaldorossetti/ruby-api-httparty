@@ -283,40 +283,40 @@ a {
   <dl style="margin-left: 0px;">
   <dt id="example_group_1" class="passed">Realizando testes da feature de usuario.</dt>
     <script type="text/javascript">moveProgressBar('20.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">Cadastrar usuário de teste, validando o json schema</span><span class='duration'>6.08728s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">Cadastrar usuário de teste, validando o json schema</span><span class='duration'>6.17016s</span></dd>
     <script type="text/javascript">moveProgressBar('40.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">Cria, Pesquisa e Deleta usuario criado</span><span class='duration'>0.05893s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">Cria, Pesquisa e Deleta usuario criado</span><span class='duration'>0.05863s</span></dd>
     <script type="text/javascript">moveProgressBar('60.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">Cria, Pesquisa e Altera o usuario criado</span><span class='duration'>0.06298s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">Cria, Pesquisa e Altera o usuario criado</span><span class='duration'>0.06186s</span></dd>
     <script type="text/javascript">makeRed('rspec-header');</script>
     <script type="text/javascript">makeRed('div_group_1');</script>
     <script type="text/javascript">makeRed('example_group_1');</script>
     <script type="text/javascript">moveProgressBar('80.0');</script>
     <dd class="example failed">
       <span class="failed_spec_name">Validar regra de email usado, teste negativo</span>
-      <span class="duration">0.06874s</span>
+      <span class="duration">0.07269s</span>
       <div class="failure" id="failure_1">
-        <div class="message"><pre>  Failure/Error: expect(@response.code).to eq 200
+        <div class="message"><pre>  Failure/Error: expect(@response_edit.code).to eq 200
 
     expected: 200
          got: 400
 
     (compared using ==)
-  # ./spec/tests/register_user.rb:54:in `block (2 levels) in &lt;top (required)&gt;&#39;</pre></div>
-        <div class="backtrace"><pre>./spec/tests/register_user.rb:54:in `block (2 levels) in &lt;top (required)&gt;&#39;</pre></div>
-    <pre class="ruby"><code><span class="linenum">52</span>    @response = Service.put("/usuarios/#{result._id}", body: @body_before)
-<span class="linenum">53</span>    puts @response.body
-<span class="offending"><span class="linenum">54</span>    expect(@response.code).to eq 200</span>
-<span class="linenum">55</span>
-<span class="linenum">56</span>    @response = Service.get("/usuarios/#{result._id}")
-<span class="linenum">57</span><span class="comment"># Install the coderay gem to get syntax highlighting</span></code></pre>
+  # ./spec/tests/register_user.rb:50:in `block (2 levels) in &lt;top (required)&gt;&#39;</pre></div>
+        <div class="backtrace"><pre>./spec/tests/register_user.rb:50:in `block (2 levels) in &lt;top (required)&gt;&#39;</pre></div>
+    <pre class="ruby"><code><span class="linenum">48</span>    @response_edit = Service.put("/usuarios/#{result._id}", body: User.user_body_email)
+<span class="linenum">49</span>    puts @response_edit.body
+<span class="offending"><span class="linenum">50</span>    expect(@response_edit.code).to eq 200</span>
+<span class="linenum">51</span>
+<span class="linenum">52</span>    @response_search = Service.get("/usuarios/#{result._id}")
+<span class="linenum">53</span><span class="comment"># Install the coderay gem to get syntax highlighting</span></code></pre>
       </div>
     </dd>
     <script type="text/javascript">moveProgressBar('100.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">Lista usuários cadastrados</span><span class='duration'>0.02493s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">Lista usuários cadastrados</span><span class='duration'>0.02096s</span></dd>
   </dl>
 </div>
-<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>6.33781 seconds</strong>";</script>
+<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>6.41895 seconds</strong>";</script>
 <script type="text/javascript">document.getElementById('totals').innerHTML = "5 examples, 1 failure";</script>
 </div>
 </div>
