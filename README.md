@@ -5,6 +5,22 @@ Foi criado esse projeto com intuito de mostrar o ServeRest (https://serverest.de
 - Query string
 - Teste de schema json
 
+
+### Para subir o servido localmente com NPM
+
+Execute o seguinte comando no terminal:
+
+```sh
+npx serverest@latest
+```
+
+Caminho do arquivo de configuração do servidor no projeto:
+ruby-api-httparty / spec / support / data / homolog.yml
+```
+url_padrao: 'http://localhost:3000'
+```
+* Se precisar mudar a porta do servidor mudar também nesse arquivo.
+
 Utilizamos as seguintes bibliotecas:
 ```
 gem 'rspec'
