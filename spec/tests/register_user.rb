@@ -37,11 +37,9 @@ describe 'Realizando testes da feature de usuario.' do
   end
 
   it 'Validar regra de email usado, teste negativo' do
-    @body_after = { "nome": User.full_name, "email": User.email, "password": User.password, "administrador": "true" }
-    .to_json
     @body_before = { "nome": User.full_name, "email": "rei@gmail.com", "password": User.password, "administrador": "true" }
               .to_json
-    @response = Service.post('/usuarios', body: @body_after)
+    @response = Service.post('/usuarios', body: User.user_body)
     expect(@response.code).to eq 201
 
     result = JSON.parse(@response.body, object_class: OpenStruct)

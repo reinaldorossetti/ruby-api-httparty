@@ -77,7 +77,7 @@ PLATFORMS
 
 DEPENDENCIES
   faker (~> 2.18.0)
-  httparty
+  httparty (~> 0.18.1)
   json-schema (~> 2.8.1)
   pact (~> 1.57)
   rspec
