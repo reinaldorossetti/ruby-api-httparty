@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     awesome_print (1.9.2)
     concurrent-ruby (1.1.9)
     diff-lcs (1.4.4)
@@ -14,6 +16,8 @@ GEM
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     json (2.5.1)
+    json-schema (2.8.1)
+      addressable (>= 2.4)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2021.0225)
@@ -41,6 +45,7 @@ GEM
       diff-lcs (~> 1.4)
       randexp (~> 0.1.7)
       term-ansicolor (~> 1.0)
+    public_suffix (4.0.6)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -73,6 +78,7 @@ PLATFORMS
 DEPENDENCIES
   faker (~> 2.18.0)
   httparty
+  json-schema (~> 2.8.1)
   pact (~> 1.57)
   rspec
 

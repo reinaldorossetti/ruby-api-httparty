@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "message": "Cadastro realizado com sucesso",
+            "_id": "zzSiu2DhD1RR7uUO"
+        }
+    ],
+    "required": [
+        "message",
+        "_id"
+    ],
+    "properties": {
+        "message": {
+            "$id": "#/properties/message",
+            "type": "string",
+            "title": "The message schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Cadastro realizado com sucesso"
+            ]
+        },
+        "_id": {
+            "$id": "#/properties/_id",
+            "type": "string",
+            "title": "The _id schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "zzSiu2DhD1RR7uUO"
+            ]
+        }
+    },
+    "additionalProperties": false
+}
