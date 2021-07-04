@@ -54,7 +54,7 @@ Para conhecer a API pública de estudos **ServeRest** que utilizei para os teste
 
 Para criar o json schema copie o body da requisição para dentro da tools de jsonschema [clique aqui](https://www.jsonschema.net/home)
 
-Referências:
-https://github.com/serverest/serverest
-https://github.com/ruby-json-schema/json-schema/tree/master
-https://github.com/jnunemaker/httparty
+Referências:  
+https://github.com/serverest/serverest  
+https://github.com/ruby-json-schema/json-schema/tree/master  
+https://github.com/jnunemaker/httparty  
