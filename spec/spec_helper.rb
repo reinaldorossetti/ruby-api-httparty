@@ -3,16 +3,20 @@ require 'httparty/request'
 require 'httparty/response/headers'
 require 'faker'
 require "json-schema"
-require "json"
+require 'json'
+require 'ostruct'
 
 @rspec_yml = YAML.load_file("#{Dir.pwd}/spec/support/rspec.yml")
 @ambiente = @rspec_yml['ambiente']
+
 CONFIG = YAML.load_file("#{Dir.pwd}/spec/support/data/#{@ambiente}.yml")
 schema_directory = "#{Dir.pwd}/spec/support/schemas"
-$schema_json_user = "#{schema_directory}/user.json"
-$schema_json_register = "#{schema_directory}/cadastro.json"
+$SCHEMA_JSON_USER = "#{schema_directory}/user.json"
+$SCHEMA_JSON_REGISTER = "#{schema_directory}/cadastro.json"
+
 # referencia de onde esta o arquivo com o modulo contato
 require_relative 'services/criar_service.rb'
+require_relative 'tests/dados/dados.rb'
 
 RSpec.configure do |config|
 
