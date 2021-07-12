@@ -28,8 +28,7 @@ describe 'Realizando testes da feature de usuario.' do
     p @response_search = Service.get("/usuarios/#{body_objects._id}")
     expect(@response_search.code).to eq 200
 
-    @response_edit = Service.put("/usuarios/#{body_objects._id}", body: User.user_body)
-    puts @response_edit.body
+    p @response_edit = Service.put("/usuarios/#{body_objects._id}", body: User.user_body)
     expect(@response_edit.code).to eq 200
 
     p @response_search = Service.get("/usuarios/#{body_objects._id}")
@@ -41,16 +40,13 @@ describe 'Realizando testes da feature de usuario.' do
     expect(@response_create_user.code).to eq 201
 
     result = JSON.parse(@response_create_user.body, object_class: OpenStruct)
-    @response_search = Service.get("/usuarios/#{result._id}")
-    puts @response_search.body
+    p @response_search = Service.get("/usuarios/#{result._id}")
     expect(@response_search.code).to eq 200
 
-    @response_edit = Service.put("/usuarios/#{result._id}", body: User.user_body_email)
-    puts @response_edit.body
+    p @response_edit = Service.put("/usuarios/#{result._id}", body: User.user_body_email)
     expect(@response_edit.code).to eq 200
 
-    @response_search = Service.get("/usuarios/#{result._id}")
-    puts @response_search.body
+    p @response_search = Service.get("/usuarios/#{result._id}")
     expect(@response_search.code).to eq 200
   end
 
