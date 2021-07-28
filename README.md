@@ -34,6 +34,11 @@ gem 'pact', '~> 1.57'
 gem 'json-schema', '~> 2.8.1'
 ```
 
+Primeiro precisa baixar o gerenciado de dependencias que é o bundle
+```
+gem install bundle
+```
+
 - Como é um projeto de testes somente fiz os testes da feature de usuários, mas ideia é utilizar todos os verbos *GET, POST, PUT* e *DELETE*.  
 
 Foi utilizado, o faker para gerar dados do usuário, json-schema para validação do contrato, json para ler os dados em json e ostruct para transformar para objetos.  
