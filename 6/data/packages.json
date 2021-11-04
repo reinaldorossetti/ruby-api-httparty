@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "spec/tests",
+    "children" : [ {
+      "name" : "Cadastrar usuário de teste, validando o json schema",
+      "uid" : "1eae1c8242fab3aa",
+      "parentUid" : "81797ed0a7e0aaacfd6987c9944f1c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636041232642,
+        "stop" : 1636041234643,
+        "duration" : 2001
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cria, Pesquisa e Deleta usuario criado",
+      "uid" : "7c701121382761e1",
+      "parentUid" : "81797ed0a7e0aaacfd6987c9944f1c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636041234644,
+        "stop" : 1636041236499,
+        "duration" : 1855
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cria, Pesquisa e Altera o usuario criado",
+      "uid" : "77fffe9049bee716",
+      "parentUid" : "81797ed0a7e0aaacfd6987c9944f1c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636041236511,
+        "stop" : 1636041239583,
+        "duration" : 3072
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validar regra de email usado, teste negativo",
+      "uid" : "7ef374733856b328",
+      "parentUid" : "81797ed0a7e0aaacfd6987c9944f1c71",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636041239584,
+        "stop" : 1636041241477,
+        "duration" : 1893
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Lista usuários cadastrados",
+      "uid" : "3d82a2bc3b4ac87",
+      "parentUid" : "81797ed0a7e0aaacfd6987c9944f1c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636041241544,
+        "stop" : 1636041242162,
+        "duration" : 618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "81797ed0a7e0aaacfd6987c9944f1c71"
+  } ],
+  "name" : "packages"
+}

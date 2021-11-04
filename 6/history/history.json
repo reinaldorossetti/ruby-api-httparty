@@ -1,0 +1,103 @@
+{
+  "e298a9c08dcf74d9bb97350a7842c250" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1eae1c8242fab3aa",
+      "reportUrl" : "https://reinaldorossetti.github.io/ruby-api-httparty/6//#testresult/1eae1c8242fab3aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636041232642,
+        "stop" : 1636041234643,
+        "duration" : 2001
+      }
+    } ]
+  },
+  "f31c68b5c8684cbff84828bee07f827a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d82a2bc3b4ac87",
+      "reportUrl" : "https://reinaldorossetti.github.io/ruby-api-httparty/6//#testresult/3d82a2bc3b4ac87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636041241544,
+        "stop" : 1636041242162,
+        "duration" : 618
+      }
+    } ]
+  },
+  "06ee3125ad47c5f3e8a5697b52dae5c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c701121382761e1",
+      "reportUrl" : "https://reinaldorossetti.github.io/ruby-api-httparty/6//#testresult/7c701121382761e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636041234644,
+        "stop" : 1636041236499,
+        "duration" : 1855
+      }
+    } ]
+  },
+  "1234b5ac7fc61653149bcdfc55165b68" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ef374733856b328",
+      "reportUrl" : "https://reinaldorossetti.github.io/ruby-api-httparty/6//#testresult/7ef374733856b328",
+      "status" : "failed",
+      "statusDetails" : "\nexpected: 200\n     got: 400\n\n(compared using ==)\n",
+      "time" : {
+        "start" : 1636041239584,
+        "stop" : 1636041241477,
+        "duration" : 1893
+      }
+    } ]
+  },
+  "c2f0cd2d684f871692e6e5b054d6a97d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77fffe9049bee716",
+      "reportUrl" : "https://reinaldorossetti.github.io/ruby-api-httparty/6//#testresult/77fffe9049bee716",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636041236511,
+        "stop" : 1636041239583,
+        "duration" : 3072
+      }
+    } ]
+  }
+}
