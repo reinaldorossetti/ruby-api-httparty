@@ -21,8 +21,7 @@ jobs:
         with:
           node-version: '14'
       - name: Install operating system dependencies
-        run: npx playwright install-deps |
-         npm install -g allure-commandline --save-dev
+        run: npm install -g allure-commandline --save-dev
       - name: Set up Ruby
         # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
         # change this to (see https://github.com/ruby/setup-ruby#versioning):
@@ -33,11 +32,10 @@ jobs:
           bundler-cache: true
       - name: Run tests
         run: |
-             brew install shared-mime-info
-             gem install mimemagic
              gem install allure-rspec
+             gem install httparty
              bundler install
-             rspec spec/tests/register_user.rb
+             bundle exec rspec spec/tests/register_user.rb
       - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
         run: |
           allure generate allure-results -o allure-report/
