@@ -3,6 +3,14 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    allure-rspec (2.15.0)
+      allure-ruby-commons (= 2.15.0)
+      rspec-core (>= 3.8, < 4)
+    allure-ruby-commons (2.15.0)
+      mime-types (>= 3.3, < 4)
+      oj (>= 3.10, < 4)
+      require_all (>= 2, < 4)
+      uuid (>= 2.3, < 3)
     awesome_print (1.9.2)
     concurrent-ruby (1.1.9)
     diff-lcs (1.4.4)
@@ -18,10 +26,13 @@ GEM
     json (2.5.1)
     json-schema (2.8.1)
       addressable (>= 2.4)
+    macaddr (1.7.2)
+      systemu (~> 2.6.5)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2021.0225)
     multi_xml (0.6.0)
+    oj (3.13.6)
     pact (1.57.0)
       pact-mock_service (~> 3.0, >= 3.3.1)
       pact-support (~> 1.15)
@@ -50,6 +61,7 @@ GEM
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     randexp (0.1.7)
+    require_all (3.0.0)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -64,11 +76,14 @@ GEM
       rspec-support (~> 3.10.0)
     rspec-support (3.10.2)
     sync (0.5.0)
+    systemu (2.6.5)
     term-ansicolor (1.7.1)
       tins (~> 1.0)
     thor (1.1.0)
     tins (1.29.1)
       sync
+    uuid (2.3.9)
+      macaddr (~> 1.0)
     webrick (1.7.0)
 
 PLATFORMS
@@ -76,11 +91,12 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  allure-rspec (~> 2.15.0)
   faker (~> 2.18.0)
   httparty (~> 0.18.1)
   json-schema (~> 2.8.1)
   pact (~> 1.57)
-  rspec
+  rspec (~> 3.10)
 
 BUNDLED WITH
    1.16.1

@@ -5,6 +5,8 @@ require 'faker'
 require "json-schema"
 require 'json'
 require 'ostruct'
+require 'rspec'
+require 'allure-rspec'
 
 @rspec_yml = YAML.load_file("#{Dir.pwd}/spec/support/rspec.yml")
 @ambiente = @rspec_yml['ambiente']
@@ -17,6 +19,11 @@ $SCHEMA_JSON_REGISTER = "#{schema_directory}/cadastro.json"
 # referencia de onde esta o arquivo com o modulo contato
 require_relative 'services/criar_service.rb'
 require_relative 'tests/dados/dados.rb'
+
+AllureRspec.configure do |c|
+  c.results_directory = 'report/allure-results'
+  c.clean_results_directory = true
+end
 
 RSpec.configure do |config|
 

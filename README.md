@@ -6,7 +6,7 @@ Foi criado esse projeto com intuito de mostrar o ServeRest (https://serverest.de
 - Teste de schema json
 
 
-### Para subir o servido localmente com NPM
+### 1. Para subir o servido localmente com NPM
 
 Execute o seguinte comando no terminal:  
 
