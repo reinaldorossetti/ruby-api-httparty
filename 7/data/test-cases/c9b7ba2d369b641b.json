@@ -1,0 +1,64 @@
+{
+  "uid" : "c9b7ba2d369b641b",
+  "name" : "Lista usuários cadastrados",
+  "fullName" : "Realizando testes da feature de usuario. Lista usuários cadastrados",
+  "historyId" : "f31c68b5c8684cbff84828bee07f827a",
+  "time" : {
+    "start" : 1636041714230,
+    "stop" : 1636041714875,
+    "duration" : 645
+  },
+  "description" : "Location - spec/tests/register_user.rb:53",
+  "descriptionHtml" : "Location - spec/tests/register_user.rb:53",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "rspec"
+  }, {
+    "name" : "package",
+    "value" : "spec/tests"
+  }, {
+    "name" : "testClass",
+    "value" : "register_user"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "spec/tests"
+  }, {
+    "name" : "feature",
+    "value" : "Realizando testes da feature de usuario."
+  }, {
+    "name" : "suite",
+    "value" : "Realizando testes da feature de usuario."
+  }, {
+    "name" : "thread",
+    "value" : "47013284125020"
+  }, {
+    "name" : "host",
+    "value" : "fv-az41-537"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9b7ba2d369b641b.json",
+  "parameterValues" : [ ]
+}

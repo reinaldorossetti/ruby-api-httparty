@@ -1,0 +1,64 @@
+{
+  "uid" : "de7735a7b9d2ce50",
+  "name" : "Cria, Pesquisa e Altera o usuario criado",
+  "fullName" : "Realizando testes da feature de usuario. Cria, Pesquisa e Altera o usuario criado",
+  "historyId" : "c2f0cd2d684f871692e6e5b054d6a97d",
+  "time" : {
+    "start" : 1636041709854,
+    "stop" : 1636041712332,
+    "duration" : 2478
+  },
+  "description" : "Location - spec/tests/register_user.rb:23",
+  "descriptionHtml" : "Location - spec/tests/register_user.rb:23",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "rspec"
+  }, {
+    "name" : "package",
+    "value" : "spec/tests"
+  }, {
+    "name" : "testClass",
+    "value" : "register_user"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "spec/tests"
+  }, {
+    "name" : "feature",
+    "value" : "Realizando testes da feature de usuario."
+  }, {
+    "name" : "suite",
+    "value" : "Realizando testes da feature de usuario."
+  }, {
+    "name" : "thread",
+    "value" : "47013284125020"
+  }, {
+    "name" : "host",
+    "value" : "fv-az41-537"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de7735a7b9d2ce50.json",
+  "parameterValues" : [ ]
+}
