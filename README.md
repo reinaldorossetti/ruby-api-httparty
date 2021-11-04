@@ -58,6 +58,10 @@ Comando para rodar os testes da feature de usuários:
 ```
 bundle exec rspec spec/tests/register_user.rb
 ```
+Para visualizar o relatório gerado do allure report, segue o link abaixo:
+```
+https://reinaldorossetti.github.io/ruby-api-httparty/
+```
 
 Vídeos curtos do nosso projeto, somente pra explicar a lógica e execução:
 https://www.loom.com/share/0124b9b21086495f84c560a25a83debd
