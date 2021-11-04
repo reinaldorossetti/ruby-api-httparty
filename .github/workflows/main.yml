@@ -36,6 +36,7 @@ jobs:
              brew install shared-mime-info
              gem install mimemagic
              gem install allure-rspec
+             bundler install
              rspec spec/tests/register_user.rb
       - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
         run: |
