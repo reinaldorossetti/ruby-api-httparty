@@ -1,4 +1,4 @@
-name: Test cucumber
+name: Test com Httparty
 
 on:
   push:
