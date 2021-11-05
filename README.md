@@ -67,6 +67,10 @@ Vídeos curtos do nosso projeto, somente pra explicar a lógica e execução:
 https://www.loom.com/share/0124b9b21086495f84c560a25a83debd
 https://www.loom.com/share/dcba13d058b74fd5926f42201b26016d
 
+** Obs:
+- Precisa atualizar a session pegando o valor do site e adicionando no arquivo abaixo:
+https://github.com/reinaldorossetti/ruby_cucumber_httparty/blob/main/features/support/headers/cookie.json
+
 
 Para conhecer a API pública de estudos **ServeRest** que utilizei para os testes [clique aqui](https://serverest.dev/).
 
