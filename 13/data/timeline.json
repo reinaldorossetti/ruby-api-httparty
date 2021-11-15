@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az122-978",
+    "children" : [ {
+      "name" : "47460348410220",
+      "children" : [ {
+        "name" : "Cria, Pesquisa e Altera o usuario criado",
+        "uid" : "94e29c7ae7f595d5",
+        "parentUid" : "7f4f4d86bde5614fb5aee7e1a75655e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637006472942,
+          "stop" : 1637006475561,
+          "duration" : 2619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validar regra de email usado, teste negativo",
+        "uid" : "8ea71614fb5e5579",
+        "parentUid" : "7f4f4d86bde5614fb5aee7e1a75655e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1637006475562,
+          "stop" : 1637006477540,
+          "duration" : 1978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Cria, Pesquisa e Deleta usuario criado",
+        "uid" : "12c626931b3e7b6b",
+        "parentUid" : "7f4f4d86bde5614fb5aee7e1a75655e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637006470972,
+          "stop" : 1637006472930,
+          "duration" : 1958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lista usuários cadastrados",
+        "uid" : "e27c9102185f9ff3",
+        "parentUid" : "7f4f4d86bde5614fb5aee7e1a75655e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637006477587,
+          "stop" : 1637006478396,
+          "duration" : 809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Cadastrar usuário de teste, validando o json schema",
+        "uid" : "2cc02d070476752a",
+        "parentUid" : "7f4f4d86bde5614fb5aee7e1a75655e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637006468323,
+          "stop" : 1637006470971,
+          "duration" : 2648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f4f4d86bde5614fb5aee7e1a75655e0"
+    } ],
+    "uid" : "b1d7e342556b04775dc2f6b076332f2e"
+  } ],
+  "name" : "timeline"
+}
