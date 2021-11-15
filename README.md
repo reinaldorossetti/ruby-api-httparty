@@ -52,11 +52,12 @@ require 'ostruct'
 Comando para instalar as bibliotecas:
 ```
 bundle install
+gem update --system 3.2.6
 ```
 
 Comando para rodar os testes da feature de usuários:
 ```
-bundle exec rspec spec/tests/register_user.rb
+bundle exec rspec spec/tests/register_user.rb --format AllureRspecFormatter
 ```
 Para visualizar o relatório gerado do allure report, segue o link abaixo:
 ```
