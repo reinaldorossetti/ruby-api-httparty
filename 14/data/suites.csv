@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Nov 19 05:04:44 GMT 2021","Fri Nov 19 05:04:47 GMT 2021","2505","","Realizando testes da feature de usuario.","","register_user","","Validar regra de email usado, teste negativo","Location - spec/tests/register_user.rb:38"
-"passed","Fri Nov 19 05:04:47 GMT 2021","Fri Nov 19 05:04:49 GMT 2021","1725","","Realizando testes da feature de usuario.","","register_user","","Lista usuários cadastrados","Location - spec/tests/register_user.rb:53"
-"passed","Fri Nov 19 05:04:38 GMT 2021","Fri Nov 19 05:04:40 GMT 2021","1990","","Realizando testes da feature de usuario.","","register_user","","Cadastrar usuário de teste, validando o json schema","Location - spec/tests/register_user.rb:3"
-"passed","Fri Nov 19 05:04:42 GMT 2021","Fri Nov 19 05:04:44 GMT 2021","2500","","Realizando testes da feature de usuario.","","register_user","","Cria, Pesquisa e Altera o usuario criado","Location - spec/tests/register_user.rb:23"
-"passed","Fri Nov 19 05:04:40 GMT 2021","Fri Nov 19 05:04:42 GMT 2021","1935","","Realizando testes da feature de usuario.","","register_user","","Cria, Pesquisa e Deleta usuario criado","Location - spec/tests/register_user.rb:10"
