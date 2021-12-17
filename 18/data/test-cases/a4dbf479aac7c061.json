@@ -1,0 +1,64 @@
+{
+  "uid" : "a4dbf479aac7c061",
+  "name" : "Validar regra de email usado, teste negativo",
+  "fullName" : "Realizando testes da feature de usuario. Validar regra de email usado, teste negativo",
+  "historyId" : "1234b5ac7fc61653149bcdfc55165b68",
+  "time" : {
+    "start" : 1639717577828,
+    "stop" : 1639717580158,
+    "duration" : 2330
+  },
+  "description" : "Location - spec/tests/register_user.rb:38",
+  "descriptionHtml" : "Location - spec/tests/register_user.rb:38",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "rspec"
+  }, {
+    "name" : "package",
+    "value" : "spec/tests"
+  }, {
+    "name" : "testClass",
+    "value" : "register_user"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "spec/tests"
+  }, {
+    "name" : "feature",
+    "value" : "Realizando testes da feature de usuario."
+  }, {
+    "name" : "suite",
+    "value" : "Realizando testes da feature de usuario."
+  }, {
+    "name" : "thread",
+    "value" : "47430374750580"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-565"
+  }, {
+    "name" : "language",
+    "value" : "ruby"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4dbf479aac7c061.json",
+  "parameterValues" : [ ]
+}
