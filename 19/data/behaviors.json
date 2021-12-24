@@ -1,0 +1,78 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "spec/tests",
+    "children" : [ {
+      "name" : "Realizando testes da feature de usuario.",
+      "children" : [ {
+        "name" : "Cadastrar usuário de teste, validando o json schema",
+        "uid" : "d75674297d79426f",
+        "parentUid" : "0c37836666540b03c6c8a1376773f3cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640322473643,
+          "stop" : 1640322475800,
+          "duration" : 2157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Cria, Pesquisa e Deleta usuario criado",
+        "uid" : "555b9d7423116c6f",
+        "parentUid" : "0c37836666540b03c6c8a1376773f3cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640322475801,
+          "stop" : 1640322477899,
+          "duration" : 2098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Cria, Pesquisa e Altera o usuario criado",
+        "uid" : "45c8587f892abb9c",
+        "parentUid" : "0c37836666540b03c6c8a1376773f3cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640322477900,
+          "stop" : 1640322480538,
+          "duration" : 2638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validar regra de email usado, teste negativo",
+        "uid" : "227f8ddba6ef3054",
+        "parentUid" : "0c37836666540b03c6c8a1376773f3cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640322480539,
+          "stop" : 1640322483182,
+          "duration" : 2643
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Lista usuários cadastrados",
+        "uid" : "da01269c414d3daa",
+        "parentUid" : "0c37836666540b03c6c8a1376773f3cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640322483183,
+          "stop" : 1640322483849,
+          "duration" : 666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c37836666540b03c6c8a1376773f3cc"
+    } ],
+    "uid" : "f2d0ba1b77db8fce7d29ac4494dfa726"
+  } ],
+  "name" : "behaviors"
+}

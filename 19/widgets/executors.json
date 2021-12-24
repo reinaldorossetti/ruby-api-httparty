@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://reinaldorossetti.github.io/ruby-api-httparty",
+  "buildOrder" : 19,
+  "buildName" : "GitHub Actions Run #1618141194",
+  "buildUrl" : "https://github.com/reinaldorossetti/ruby-api-httparty/actions/runs/1618141194",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://reinaldorossetti.github.io/ruby-api-httparty/19/"
+} ]
