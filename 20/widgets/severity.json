@@ -1,0 +1,51 @@
+[ {
+  "uid" : "e10712c663c3ffad",
+  "name" : "Lista usuários cadastrados",
+  "time" : {
+    "start" : 1640927288168,
+    "stop" : 1640927288750,
+    "duration" : 582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d398ec3ebea2e57",
+  "name" : "Cadastrar usuário de teste, validando o json schema",
+  "time" : {
+    "start" : 1640927279454,
+    "stop" : 1640927281698,
+    "duration" : 2244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e509e3e95f25517f",
+  "name" : "Cria, Pesquisa e Deleta usuario criado",
+  "time" : {
+    "start" : 1640927281699,
+    "stop" : 1640927283479,
+    "duration" : 1780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7c11a47e9311847",
+  "name" : "Cria, Pesquisa e Altera o usuario criado",
+  "time" : {
+    "start" : 1640927283479,
+    "stop" : 1640927285841,
+    "duration" : 2362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a86bca0501617c68",
+  "name" : "Validar regra de email usado, teste negativo",
+  "time" : {
+    "start" : 1640927285842,
+    "stop" : 1640927288167,
+    "duration" : 2325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
