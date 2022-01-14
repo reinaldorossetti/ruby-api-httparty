@@ -1,0 +1,74 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Realizando testes da feature de usuario.",
+    "children" : [ {
+      "name" : "Cadastrar usuário de teste, validando o json schema",
+      "uid" : "858a4d9c813585bc",
+      "parentUid" : "c574639bd54f1d9940e71b2ea6e4cc83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642136928084,
+        "stop" : 1642136929353,
+        "duration" : 1269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cria, Pesquisa e Deleta usuario criado",
+      "uid" : "5aef964bf85b226d",
+      "parentUid" : "c574639bd54f1d9940e71b2ea6e4cc83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642136929354,
+        "stop" : 1642136929581,
+        "duration" : 227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Cria, Pesquisa e Altera o usuario criado",
+      "uid" : "b78844da0b9093f3",
+      "parentUid" : "c574639bd54f1d9940e71b2ea6e4cc83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642136929582,
+        "stop" : 1642136929927,
+        "duration" : 345
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validar regra de email usado, teste negativo",
+      "uid" : "4a56d48a386da5bb",
+      "parentUid" : "c574639bd54f1d9940e71b2ea6e4cc83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642136929927,
+        "stop" : 1642136930271,
+        "duration" : 344
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Lista usuários cadastrados",
+      "uid" : "3642b33d7709d66c",
+      "parentUid" : "c574639bd54f1d9940e71b2ea6e4cc83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642136930272,
+        "stop" : 1642136930344,
+        "duration" : 72
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c574639bd54f1d9940e71b2ea6e4cc83"
+  } ],
+  "name" : "suites"
+}
