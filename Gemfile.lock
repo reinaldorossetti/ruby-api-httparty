@@ -57,7 +57,7 @@ GEM
       randexp (~> 0.1.7)
       term-ansicolor (~> 1.0)
     public_suffix (4.0.6)
-    rack (2.2.3)
+    rack (2.2.4)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     randexp (0.1.7)
